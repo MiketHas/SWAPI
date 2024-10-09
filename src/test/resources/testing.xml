@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tests Suite">
+    <test name="SWAPI Test">
+        <classes>
+            <class name="HealthCheckTests"/>
+            <class name="GetFilmsTests"/>
+            <class name="GetPeopleTests"/>
+            <class name="GetPlanetsTests"/>
+            <class name="GetSpeciesTests"/>
+            <class name="GetStarshipsTests"/>
+            <class name="GetVehiclesTests"/>
+        </classes>
+    </test>
+</suite>
